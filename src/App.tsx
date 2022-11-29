@@ -1,8 +1,8 @@
-import NameGenerator from "./components/NameGenerator"
+import MonsterInMyPocketCollection from "./components/MonsterInMyPocket/MonsterInMyPocketCollection"
 
 function App() {
   return <div>
-    <NameGenerator nameType="Lord of the Rings" />
+    <MonsterInMyPocketCollection />
   </div>
 }
 
