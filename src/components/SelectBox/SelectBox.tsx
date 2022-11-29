@@ -27,7 +27,7 @@ const SelectBox = <T,>({
     );
 
   return (
-    <select className="form-select" onChange={onChangeEvent}>
+    <select className="form-select" onChange={onChangeEvent} value={value}>
       {options.map(({ displayString }) => (
         <option value={displayString}>{displayString}</option>
       ))}
